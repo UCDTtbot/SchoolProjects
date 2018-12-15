@@ -1,0 +1,88 @@
+\documentclass[11pt]{article}  % required first line, though can vary;
+                               % this says we will use 11-point font,
+                               % in the "article" format
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+\graphicspath{ {image/} }
+% material beginning with the percent sign is commentary, for human
+% information purposes, not processed by the LaTeX system
+
+% these \setlength etc. lines concern page layout, amount of paragraph
+% indentation etc.; beginners should ignore them (but include them)
+\setlength{\oddsidemargin}{0.0in}
+\setlength{\evensidemargin}{0.0in}
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.25in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{2mm}
+
+\title{\textbf{Homework 1}}
+\author{Tyler Welsh 912341695}
+\date{}
+%\renewcommand{\labelenumi}{\alph{enumi})}
+
+\fancypagestyle{first}
+{
+	\fancyhf{}
+	\lhead{Tyler Welsh}
+	\rhead{Alice Chen}
+}
+%\pagestyle{fancy}
+%\lhead{Tyler Welsh}
+%\rhead{ID: 912341695}
+
+\begin{document}  % required; the document starts here
+
+\thispagestyle{first}
+
+\begin{center}
+\section*{ECS 170 Project 2 Question 1}
+\end{center}
+
+Alright, so right now we have an array for center preference.
+
+Lets expand it to a table, so something like:
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+1 & 3 & 5 & 7 & 6 & 4 & 2\\
+\hline
+2 & 4 & 6 & 8 & 7 & 5 & 3\\
+\hline
+3 & 5 & 7 & 9 & 8 & 6 & 4\\
+\hline
+3 & 5 & 7 & 9 & 8 & 6 & 4\\
+\hline
+2 & 4 & 6 & 8 & 7 & 5 & 3\\
+\hline
+1 & 3 & 5 & 7 & 6 & 4 & 2\\
+\hline  
+\end{tabular}
+\end{center}
+Bottom row is just 1 through 7 kind of randomly, and going up I added +1 then + 2, then made it symmetric.
+
+So we can do something like:
+\begin{lstlisting}
+moveToMake[7];
+moveWeight[7];
+weights[boardWidth][boardHeight];
+for(int x = 0; x < boardWidth; x++)
+{
+	if(canMakeMove(x)
+	{
+		h = getHeightAt(x);
+	}
+	weight = weights[x][h];
+	.......
+	moveToMake.add(x) //where we sort them by the weight obtained above
+}
+\end{lstlisting}
+This is as far as I got in my thinking before realizing it'd be good to maybe make moveToMake a priority queue maybe? Sorted by the weights
+
+
+\end{document}  % required; the document ends here

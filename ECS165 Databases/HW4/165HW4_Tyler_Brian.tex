@@ -1,0 +1,133 @@
+\documentclass[11pt]{article}  % required first line, though can vary;
+                               % this says we will use 11-point font,
+                               % in the "article" format
+\usepackage{fancyhdr}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{ {image/} }
+% material beginning with the percent sign is commentary, for human
+% information purposes, not processed by the LaTeX system
+
+% these \setlength etc. lines concern page layout, amount of paragraph
+% indentation etc.; beginners should ignore them (but include them)
+\setlength{\oddsidemargin}{0.0in}
+\setlength{\evensidemargin}{0.0in}
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.25in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{2mm}
+
+\title{\textbf{Homework 1}}
+\author{Tyler Welsh 912341695}
+\date{}
+%\renewcommand{\labelenumi}{\alph{enumi})}
+\renewcommand{\labelenumii}{\alph{enumii})}
+
+\fancypagestyle{first}
+{
+	\fancyhf{}
+	\lhead{Tyler Welsh}
+	\rhead{Brian Moody}
+}
+\newcommand\NoIndent[1]{%
+  \par\vbox{\parbox[t]{\linewidth}{#1}}%
+}
+\newcommand{\indentitem}{\setlength\itemindent{25pt}}
+
+%\pagestyle{fancy}
+%\lhead{Tyler Welsh}
+%\rhead{ID: 912341695}
+
+\begin{document}  % required; the document starts here
+\thispagestyle{first}
+
+\begin{center}
+\section*{ECS 165 Homework 4}
+\end{center}
+\normalsize
+
+\begin{enumerate}
+\item The Schema for EIA is:\\
+EIA\_CO2\_Trans(MSN, YYYYMM, Value)\\
+EIA\_CO2\_Elec(MSN, YYYYMM, Value)\\
+EIA\_Mkwh(MSN, YYYYMM, Value)\\
+Descrip(MSN, Column\_Order, Description, Unit)
+
+MSNs are directly related to Descriptions and can be looked up in the Descrip table. Future updates with the same data can easily be inserted as is. If new columns must be added, the changes must be hard coded.\\
+
+The NHTS data is too long to write out here. The tables and data are identical to the original data set, and no changes were made. No columns were taken out, and any future updates to the data can be handled as it. Any additions in columns are automatically handled through the script.
+
+\item We chose Python 2 as our language. We use the psycopg2 package to handle SQL connection, and the cvs package to parse the data.\\
+\textbf{Run:} python2 createTables.py ; to create the tables in the public postgres database for the current user. (Alternatively, createSubsetTables.py can be run to use the subset data.)\\
+\textbf{Run:} python2 queries.py ; to run the queries in problem 3. It will take some time to run all queries, but output will be listed below. 
+\item The following output is for queries on the NHTS and EIA datasets. These outputs can be recreated by running, python2 queries.py
+\begin{enumerate}
+\item Percent who traveled less than 5 miles is: 12.61\\
+Percent who traveled less than 10 miles is: 23.19\\
+Percent who traveled less than 15 miles is: 35.34\\
+Percent who traveled less than 20 miles is: 43.87\\
+Percent who traveled less than 25 miles is: 52.97\\
+Percent who traveled less than 30 miles is: 58.95\\
+Percent who traveled less than 35 miles is: 65.29\\
+Percent who traveled less than 40 miles is: 69.55\\
+Percent who traveled less than 45 miles is: 73.98\\
+Percent who traveled less than 50 miles is: 76.90\\
+Percent who traveled less than 55 miles is: 80.06\\
+Percent who traveled less than 60 miles is: 82.08\\
+Percent who traveled less than 65 miles is: 84.38\\
+Percent who traveled less than 70 miles is: 85.87\\
+Percent who traveled less than 75 miles is: 87.44\\
+Percent who traveled less than 80 miles is: 88.57\\
+Percent who traveled less than 85 miles is: 89.73\\
+Percent who traveled less than 90 miles is: 90.56\\
+Percent who traveled less than 95 miles is: 91.44\\
+Percent who traveled less than 100 miles is: 92.04
+\newpage
+\item Miles per gallon of 5 miles is: 3.03\\
+Miles per gallon of 10 miles is: 7.46\\
+Miles per gallon of 15 miles is: 10.83\\
+Miles per gallon of 20 miles is: 13.38\\
+Miles per gallon of 25 miles is: 15.35\\
+Miles per gallon of 30 miles is: 16.82\\
+Miles per gallon of 35 miles is: 18.03\\
+Miles per gallon of 40 miles is: 18.95\\
+Miles per gallon of 45 miles is: 19.72\\
+Miles per gallon of 50 miles is: 20.32\\
+Miles per gallon of 55 miles is: 20.87\\
+Miles per gallon of 60 miles is: 21.22\\
+Miles per gallon of 65 miles is: 21.64\\
+Miles per gallon of 70 miles is: 21.95\\
+Miles per gallon of 75 miles is: 22.23\\
+Miles per gallon of 80 miles is: 22.50\\
+Miles per gallon of 85 miles is: 22.73\\
+Miles per gallon of 90 miles is: 22.92\\
+Miles per gallon of 95 miles is: 23.13\\
+Miles per gallon of 100 miles is: 23.27\\
+\item For Year/Month 200902: 45.67\\
+For Year/Month 200803: 39.88\\
+For Year/Month 200804: 44.29\\
+For Year/Month 200805: 43.61\\
+For Year/Month 200806: 44.82\\
+For Year/Month 200807: 47.34\\
+For Year/Month 200808: 47.74\\
+For Year/Month 200809: 44.75\\
+For Year/Month 200810: 44.30\\
+For Year/Month 200811: 45.46\\
+For Year/Month 200812: 46.32\\
+For Year/Month 200904: 49.88\\
+For Year/Month 200903: 47.16\\
+For Year/Month 200801: 44.08\\
+\item 6,784,012.98\\
+10,717,439.40\\
+13,080,471.66
+\end{enumerate}
+
+No Extra Credit Was Attempted
+\end{enumerate}
+
+
+\end{document}  % required; the document ends here

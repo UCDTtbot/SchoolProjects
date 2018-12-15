@@ -1,0 +1,54 @@
+/Male exists: true
+/male exists: true
+/Female exists: true
+/female exists: true
+/Test exists: true
+/test exists: true
+Test
+/weights.txt exists: true
+/hiddenWeights.txt exists: true
+Weight: 0 0.16881046787109819
+Weight: 1 0.6799695539705616
+Weight: 2 0.9773771313483063
+Weight: 3 0.5443269062765641
+Weight: 4 0.9881626081856222
+Prediction: MALE Confidence: 96.15%
+Prediction: FEMALE Confidence: 54.37%
+Prediction: MALE Confidence: 99.74%
+Prediction: MALE Confidence: 89.80%
+Prediction: MALE Confidence: 98.52%
+Prediction: MALE Confidence: 98.01%
+Prediction: MALE Confidence: 95.39%
+Prediction: MALE Confidence: 92.69%
+Prediction: MALE Confidence: 89.59%
+Prediction: MALE Confidence: 98.41%
+Prediction: MALE Confidence: 95.66%
+Prediction: MALE Confidence: 99.02%
+Prediction: MALE Confidence: 93.80%
+Prediction: MALE Confidence: 98.79%
+Prediction: MALE Confidence: 97.91%
+Prediction: MALE Confidence: 98.71%
+Prediction: MALE Confidence: 96.16%
+Prediction: MALE Confidence: 96.83%
+Prediction: MALE Confidence: 99.96%
+Prediction: MALE Confidence: 97.66%
+Prediction: MALE Confidence: 97.24%
+Prediction: MALE Confidence: 85.68%
+Prediction: MALE Confidence: 71.75%
+Prediction: MALE Confidence: 81.92%
+Prediction: FEMALE Confidence: 65.99%
+Prediction: FEMALE Confidence: 57.80%
+Prediction: FEMALE Confidence: 71.08%
+Prediction: FEMALE Confidence: 71.36%
+Prediction: FEMALE Confidence: 70.11%
+Prediction: FEMALE Confidence: 68.15%
+Prediction: MALE Confidence: 92.29%
+Prediction: MALE Confidence: 96.18%
+Prediction: MALE Confidence: 87.74%
+Prediction: MALE Confidence: 76.74%
+Prediction: MALE Confidence: 82.65%
+Prediction: MALE Confidence: 96.83%
+Prediction: MALE Confidence: 91.76%
+Prediction: MALE Confidence: 73.91%
+Prediction: FEMALE Confidence: 40.95%
+Prediction: FEMALE Confidence: 63.57%

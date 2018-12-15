@@ -1,0 +1,215 @@
+\documentclass[11pt]{article}  % required first line, though can vary;
+                               % this says we will use 11-point font,
+                               % in the "article" format
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+\graphicspath{ {image/} }
+% material beginning with the percent sign is commentary, for human
+% information purposes, not processed by the LaTeX system
+
+% these \setlength etc. lines concern page layout, amount of paragraph
+% indentation etc.; beginners should ignore them (but include them)
+\setlength{\oddsidemargin}{0.0in}
+\setlength{\evensidemargin}{0.0in}
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.25in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{2mm}
+
+\title{\textbf{Homework 1}}
+\author{Tyler Welsh 912341695}
+\date{}
+%\renewcommand{\labelenumi}{\alph{enumi})}
+
+\fancypagestyle{first}
+{
+	\fancyhf{}
+	\lhead{Tyler Welsh}
+	\rhead{Alice Chen}
+}
+%\pagestyle{fancy}
+%\lhead{Tyler Welsh}
+%\rhead{ID: 912341695}
+
+\begin{document}  % required; the document starts here
+\thispagestyle{first}
+\begin{center}
+\section*{ECS 170 Project 3}
+\end{center}
+
+\Large{\textbf{1 Network Structure}}
+\normalsize
+
+The network is a stochastic gradient descent back-propagation schema using 15360 + 1 input nodes, 5 hidden nodes, and a single output node. The 15360 + 1 input nodes are the 15360 pixels coming from the input files with a single bias node tagged on that is a constant value of 1 for the bias weighting. The 5 hidden nodes were chosen as somewhat arbitrarily, as hidden nodes between 3 to 5 all gave closely accurate answers. The single output node is encoded as 0.8 for MALE and 0.2 for FEMALE. All nodes are fully connected.\\
+The output of the hidden nodes and output node uses the sigmoid unit $\frac{1}{1+e^{-Y}}$ where $Y = \sum_n x_i \cdot w_{ij}$ where $n$ is the number of nodes in the current layer, $i$ is the node the in current layer, and $j$ is the node in the next layer. Weights are updated per the algorithm description using back-propagated errors.\\
+File Name: SODONE.java\\
+Run by using:\\
+java SODONE -train\\
+java SODONE -test\\
+java SODONE -crossTest (takes roughly 1.25 hours)\\
+The program looks for /Male, /Female, and /Test folders in the .java file's current directory.
+
+\Large{\textbf{4 Hidden Layer Visualization}
+\normalsize
+
+The weights that are learnt within the algorithm are essentially an importance weighting of how important certain parts and colors of the picture actually are. With 5 hidden units, the algorithm is basically partitioning the image into 5 "sections" that it "learns" from the training part of the algorithm. With the 5 hidden weights, the weight with the highest value is basically the most "important" section of pixels. The same happens to all 15361 weights that are being fed into the hidden layer, but to a lesser degree. Those weights give an importance weighting to colors, while the hidden layer gives a weighting for the specific sections of the image.\\
+
+
+\Large{\textbf{2 5-Fold Cross-Validation Results: Error and STD Deviation}
+\normalsize
+
+Run \#1: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.48\% & 0.54 & -\\
+\hline
+Test & 25.19\% & 12.37 & 75.81\%
+\end{tabular}
+\end{center}
+
+Run \#2: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.29\% & 0.35 & -\\
+\hline
+Test & 22.59\% & 12.02 & 77.41\%
+\end{tabular}
+\end{center}
+Run \#3: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.30\% & 0.35 & - \\
+\hline
+Test & 24.44\% & 11.79 & 75.56\%
+\end{tabular}
+\end{center}
+Run \#4: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.30\% & 0.61  & - \\
+\hline
+Test & 25.18\% & 11.98 & 74.82\%
+\end{tabular}
+\end{center}
+Run \#5: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.39\% & 0.51 & - \\
+\hline
+Test & 23.70\% & 11.32 & 76.3\%
+\end{tabular}
+\end{center}
+Run \#6: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.30\% & 0.35 & - \\
+\hline
+Test & 21.48\% & 12.75 & 78.52\%
+\end{tabular}
+\end{center}
+Run \#7: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.48\% & 0.68 & - \\
+\hline
+Test & 25.92\% & 11.65 & 74.08\%
+\end{tabular}
+\end{center}
+Run \#8: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.39\% & 0.71 & - \\
+\hline
+Test & 26.67\% & 10.78 & 73.33\%
+\end{tabular}
+\end{center}
+Run \#9: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.38\% & 0.50 & - \\
+\hline
+Test & 24.81\% & 11.98 & 75.19\%
+\end{tabular}
+\end{center}
+Run \#10: 
+\begin{center}
+\begin{tabular}{c|c|c|c}
+& \textbf{Mean \% Error} & Standard Deviation & Mean \% Correct\\
+\hline
+Training & 1.30\% & 0.35 & - \\
+\hline
+Test & 23.70\% & 12.80 & 76.30 \%
+\end{tabular}
+\end{center}
+
+\Large{\textbf{3 Test Output}
+\normalsize
+
+Confidence's are found using the \% distance away from the target value of 0.8 MALE and 0.2 FEMALE.
+
+Prediction: MALE Confidence: 96.15\%\\
+Prediction: FEMALE Confidence: 54.37\%\\
+Prediction: MALE Confidence: 99.74\%\\
+Prediction: MALE Confidence: 89.80\%\\
+Prediction: MALE Confidence: 98.52\%\\
+Prediction: MALE Confidence: 98.01\%\\
+Prediction: MALE Confidence: 95.39\%\\
+Prediction: MALE Confidence: 92.69\%\\
+Prediction: MALE Confidence: 89.59\%\\
+Prediction: MALE Confidence: 98.41\%\\
+Prediction: MALE Confidence: 95.66\%\\
+Prediction: MALE Confidence: 99.02\%\\
+Prediction: MALE Confidence: 93.80\%\\
+Prediction: MALE Confidence: 98.79\%\\
+Prediction: MALE Confidence: 97.91\%\\
+Prediction: MALE Confidence: 98.71\%\\
+Prediction: MALE Confidence: 96.16\%\\
+Prediction: MALE Confidence: 96.83\%\\
+Prediction: MALE Confidence: 99.96\%\\
+Prediction: MALE Confidence: 97.66\%\\
+Prediction: MALE Confidence: 97.24\%\\
+Prediction: MALE Confidence: 85.68\%\\
+Prediction: MALE Confidence: 71.75\%\\
+Prediction: MALE Confidence: 81.92\%\\
+Prediction: FEMALE Confidence: 65.99\%\\
+Prediction: FEMALE Confidence: 57.80\%\\
+Prediction: FEMALE Confidence: 71.08\%\\
+Prediction: FEMALE Confidence: 71.36\%\\
+Prediction: FEMALE Confidence: 70.11\%\\
+Prediction: FEMALE Confidence: 68.15\%\\
+Prediction: MALE Confidence: 92.29\%\\
+Prediction: MALE Confidence: 96.18\%\\
+Prediction: MALE Confidence: 87.74\%\\
+Prediction: MALE Confidence: 76.74\%\\
+Prediction: MALE Confidence: 82.65\%\\
+Prediction: MALE Confidence: 96.83\%\\
+Prediction: MALE Confidence: 91.76\%\\
+Prediction: MALE Confidence: 73.91\%\\
+Prediction: FEMALE Confidence: 40.95\%\\
+Prediction: FEMALE Confidence: 63.57\%\\
+
+
+\end{document}

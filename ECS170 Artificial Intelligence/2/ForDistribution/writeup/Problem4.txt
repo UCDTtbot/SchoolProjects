@@ -1,0 +1,9 @@
+The succesor function for our alpha beta is what orders the children per node. Our succesor function is a function that gives us the ordering of next moves, based on a column weighting. Those columns/moves that have a higher column weighting would be visited first. As children nodes with less weight are visited, more pruning would occur because it is less likely that these nodes would produce a better score than the higher column weightings. Over the course of doing the program, we realized there's certain columns
+or positions that will always be more favorable to play. 
+My reasoning behind this is, because certain columns have a higher probability of producing a win. If you sit and play, you will always try
+to choose a move in the center. Why? Because you know that has a higher probability of winning you the game. The same reasoning is made
+here. Since the middle-ish columns will always produce children with better scoring, there will be more pruning more once we get to the 
+children on the outer edges.
+Right now, we are only taking in a weighting per column. But, in the future if this were to be expanded, I feel could be improved by using
+machine learning or supervised learned, and producing probabilities for each x,y position of the board. This way, the highly weighted position will always
+be visited first and produce the best scores for the highest prunings.

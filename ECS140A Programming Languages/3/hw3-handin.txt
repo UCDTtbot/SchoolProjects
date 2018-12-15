@@ -1,0 +1,49 @@
+1. Prepare the files that you want to turn in.  Make a new directory,
+   say named "HW", then "cd HW".  
+
+   In this HW directory, include a README file indicating what you think
+   works and doesn't work for your assignment.  In this file, explain
+   any peculiarities in your implementation.  
+
+   Into this HW directory, copy each of the part.  Which means in your
+   HW directory, you will have 6 directories: part1, part2, part3,
+   part4, part5, and part6.
+
+   If your program does not fully work, turn in the last working part
+   along with your attempt at the next part, and indicate this clearly
+   in the README file.
+
+   Remove files we don't need by:
+ 
+         make clean
+         rm any other "junk" files you might have there.
+
+      (But, be sure that what you give us is still complete and working
+      as well as it did for you!)
+
+
+2. In the HW directory, type in the command
+
+      zip -r hw3 *
+
+   This will create a file named hw3.zip containing the directories
+   part1 ... part6 and the README file. Now submit this file with
+
+      handin cs140a hw3 hw3.zip
+
+   The name "hw3" is a name the cs140a account uses for this
+   assignment.  Be sure to use the exact name "hw3".
+
+3. You can also use handin to make sure your zip file reaches the
+   right place:
+
+      handin cs140a hw3
+
+4. If you want to submit your homework for a second time before the
+   deadline, feel free to do so, but make sure you hand in everything
+   each time. We will not grade you using two parts of two different
+   submissions.
+
+5. Remember to submit everything BEFORE the (firm) deadline. The
+   homework is due at 11:59pm on Thursday, February 12, 2015. We WILL
+   NOT accept late submissions.

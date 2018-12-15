@@ -1,0 +1,8 @@
+shell: main.o noncanmode.o
+	g++ main.o noncanmode.o -o shell
+
+main.o: main.cpp noncanmode.o
+	g++ main.cpp -c
+ 
+noncanmode.o: noncanmode.c
+	g++ noncanmode.

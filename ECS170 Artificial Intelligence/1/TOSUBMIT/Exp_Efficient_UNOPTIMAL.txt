@@ -1,0 +1,20 @@
+Seed-1:
+	PathCost =  575.2711663286237
+  Uncovered = 69229
+  TimeTaken = 23403
+Seed-2:
+	PathCost = 583.1837055601246
+  Uncovered = 85333
+  TimeTaken = 26124
+Seed-3:
+	PathCost = 569.8683572024639
+  Uncovered = 72463
+  TimeTaken = 20994
+Seed-4:
+	PathCost = 621.4214818511529
+  Uncovered = 70117
+  TimeTaken = 30956
+Seed-5:
+	PathCost = 603.2095888166133
+  Uncovered = 84064
+  TimeTaken = 35694

@@ -1,0 +1,26 @@
+\contentsline {section}{Problem A}{2}{section*.1}
+\contentsline {subsection}{Confidence Interval for Mean Rating of Men}{3}{section*.2}
+\contentsline {subsection}{Confidence Interval for Mean Rating of Female}{3}{Item.1}
+\contentsline {subsection}{Confidence Interval for Mean Rating Difference Between Male and Female}{4}{Item.2}
+\contentsline {subsection}{Significance Testing for Population Mean Ratings}{4}{Item.3}
+\contentsline {subsection}{Histograms of Mean Ratings}{4}{Item.4}
+\contentsline {subsection}{Confidence Interval for Mean Number of Ratings}{4}{Item.5}
+\contentsline {subsection}{Confidence Interval for Population Proportion of Men}{5}{Item.6}
+\contentsline {subsection}{Linear Modeling and Population Regression}{5}{Item.7}
+\contentsline {section}{Problem B}{9}{figure.3}
+\contentsline {subsection}{Introduction to .....}{9}{section*.3}
+\contentsline {subsection}{SubSection 1}{9}{section*.3}
+\contentsline {subsection}{SubSection 2}{10}{figure.4}
+\contentsline {subsection}{SubSection 3}{10}{figure.5}
+\contentsline {subsection}{SubSection 4}{10}{figure.6}
+\contentsline {subsection}{SubSection 5}{10}{figure.7}
+\contentsline {section}{\numberline {A}Appendix}{11}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Problem A General Functions}{11}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Problem A Confidence Interval Functions}{13}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Problem A Histogram Functions}{18}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}Problem A Hypothesis Testing Functions}{18}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Problem A Linear Model Functions}{19}{subsection.A.5}
+\contentsline {subsection}{\numberline {A.6}Problem A Linear Model Output}{20}{subsection.A.6}
+\contentsline {subsection}{\numberline {A.7}Problem B Linear Model Outputs}{20}{subsection.A.7}
+\contentsline {subsection}{\numberline {A.8}Problem B Functions}{22}{subsection.A.8}
+\contentsline {subsection}{\numberline {A.9}Who Did What}{28}{subsection.A.9}

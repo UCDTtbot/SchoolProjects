@@ -1,0 +1,33 @@
+// This tests for bytes > 512 for VMFILERead
+ 
+#include "VirtualMachine.h"
+#include <fcntl.h>
+ 
+void VMMain(int argc, char *argv[]){
+    int FileDescriptor, Length, Offset;
+    char Buffer[677];
+ 
+    VMPrint("VMMain opening test.txt\n");    
+    VMFileOpen("test.txt", O_CREAT | O_TRUNC | O_RDWR, 0644, &FileDescriptor);
+    VMPrint("VMMain VMFileOpen returned %d\n", FileDescriptor);
+   
+    VMPrint("VMMain writing file\n");
+    Length = 889;
+    VMFileWrite(FileDescriptor,"Virtual machines are real important! In computing, a virtual machine (VM) is an emulation of a particular computer system. Virtual machines operate based on the computer architecture and functions of a real or hypothetical computer, and their implementations may involve specialized hardware, software, or a combination of both. Classification of virtual machines can be based on the degree to which they implement functionality of targeted real machines. That way, system virtual machines (also known as full virtualization VMs) provide a complete substitute for the targeted real machine and a level of functionality required for the execution of a complete operating system. On the other hand, process virtual machines are designed to execute a single computer program by providing an abstracted and platform-independent program execution environment.\n",&Length);
+    VMPrint("VMMain VMFileWrite returned %d\n", Length);
+    VMPrint("VMMain seeking file\n");
+    VMFileSeek(FileDescriptor, 37, 0, &Offset);    
+    VMPrint("VMMain VMFileSeek offset at %d\n",Offset);
+   
+    VMPrint("VMMain reading file\n");
+	Length = 640;
+    VMFileRead(FileDescriptor,Buffer,&Length);
+    VMPrint("VMMain VMFileRead returned %d\n", Length);
+    if(0 <= Length){
+        Buffer[Length] = '\0';
+        VMPrint("VMMain read in \"%s\"\n", Buffer);
+    }
+    VMPrint("VMMain closing file\n");
+    VMFileClose(FileDescriptor);
+    VMPrint("Goodbye\n");    
+}

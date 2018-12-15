@@ -1,0 +1,255 @@
+/Male exists: true
+/Female exists: true
+/Test exists: true
+Cross Test
+Running cross test 10 times:
+Batch #0
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4629.62962962963
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 185.18518518518516
+Test Perc Error: 2962.9629629629626
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 231.4814814814815
+Test Perc Error: 2037.037037037037
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2037.037037037037
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 925.925925925926
+Mean percent error in training: 0 is: 1.4814814814814814
+Standard deviation in training: 0.5399029532264167
+Mean percent error in testing: 0 is: 25.185185185185183
+Standard deviation in testing: 12.372809695177827
+Batch #1
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4259.259259259259
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 2777.777777777778
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 185.18518518518516
+Test Perc Error: 1481.4814814814813
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2037.037037037037
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 740.7407407407406
+Mean percent error in training: 1 is: 1.2962962962962963
+Standard deviation in training: 0.34644975803462413
+Mean percent error in testing: 1 is: 22.59259259259259
+Standard deviation in testing: 12.02420968944291
+Batch #2
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4444.444444444444
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 2222.222222222222
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 185.18518518518516
+Test Perc Error: 2407.4074074074074
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2407.4074074074074
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 740.7407407407406
+Mean percent error in training: 2 is: 1.2962962962962963
+Standard deviation in training: 0.34644975803462413
+Mean percent error in testing: 2 is: 24.444444444444443
+Standard deviation in testing: 11.793839502289376
+Batch #3
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4444.444444444444
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 2777.777777777778
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 231.4814814814815
+Test Perc Error: 2592.592592592592
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 46.29629629629629
+Test Perc Error: 2037.037037037037
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 740.7407407407406
+Mean percent error in training: 3 is: 1.2962962962962963
+Standard deviation in training: 0.6141897759917407
+Mean percent error in testing: 3 is: 25.185185185185183
+Standard deviation in testing: 11.978490095404615
+Batch #4
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4259.259259259259
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 2592.592592592592
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 231.4814814814815
+Test Perc Error: 2222.222222222222
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2037.037037037037
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 740.7407407407406
+Mean percent error in training: 4 is: 1.3888888888888888
+Standard deviation in training: 0.5071505162084872
+Mean percent error in testing: 4 is: 23.703703703703702
+Standard deviation in testing: 11.319042066619353
+Batch #5
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4444.444444444444
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 1296.296296296296
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 185.18518518518516
+Test Perc Error: 2407.4074074074074
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 1851.851851851852
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 740.7407407407406
+Mean percent error in training: 5 is: 1.2962962962962963
+Standard deviation in training: 0.34644975803462413
+Mean percent error in testing: 5 is: 21.48148148148148
+Standard deviation in testing: 12.75494470942412
+Batch #6
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4259.259259259259
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 2962.9629629629626
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 277.77777777777777
+Test Perc Error: 2962.9629629629626
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2037.037037037037
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 740.7407407407406
+Mean percent error in training: 6 is: 1.4814814814814814
+Standard deviation in training: 0.6804138174397717
+Mean percent error in testing: 6 is: 25.925925925925924
+Standard deviation in testing: 11.653431646335019
+Batch #7
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4444.444444444444
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2407.4074074074074
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 277.77777777777777
+Test Perc Error: 2962.9629629629626
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2407.4074074074074
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 1111.111111111111
+Mean percent error in training: 7 is: 1.3888888888888888
+Standard deviation in training: 0.7172191381865587
+Mean percent error in testing: 7 is: 26.666666666666668
+Standard deviation in testing: 10.77262190536962
+Batch #8
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4444.444444444444
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 2407.4074074074074
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 231.4814814814815
+Test Perc Error: 2777.777777777778
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2037.037037037037
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 740.7407407407406
+Mean percent error in training: 8 is: 1.3888888888888888
+Standard deviation in training: 0.5071505162084872
+Mean percent error in testing: 8 is: 24.814814814814817
+Standard deviation in testing: 11.978490095404615
+Batch #9
+Cross Test: 0 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 4629.62962962963
+Cross Test: 1 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 2592.592592592592
+Cross Test: 2 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 185.18518518518516
+Test Perc Error: 1851.851851851852
+Cross Test: 3 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 92.59259259259258
+Test Perc Error: 2037.037037037037
+Cross Test: 4 Training Size: 216 Test Size: 54
+Running Backprop
+Train Perc Error: 138.88888888888889
+Test Perc Error: 740.7407407407406
+Mean percent error in training: 9 is: 1.2962962962962963
+Standard deviation in training: 0.34644975803462413
+Mean percent error in testing: 9 is: 23.703703703703702
+Standard deviation in testing: 12.797890772719258

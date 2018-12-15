@@ -1,0 +1,23 @@
+Seed-1:
+	PathCost =  533.4482191461119
+  Uncovered = 226917
+  TimeTaken = 280213
+Seed-2:
+	PathCost = 549.5036346739352
+  Uncovered = 237621
+  TimeTaken = 298732
+Seed-3:
+	PathCost = 510.97825243663607
+  Uncovered = 228706
+  TimeTaken = 292838
+Seed-4:
+	PathCost = 560.6570436319696
+  Uncovered = 216097
+  TimeTaken = 267098
+Seed-5:
+	PathCost = 479.5879215923168
+  Uncovered = 220676
+  TimeTaken = 303079
+  
+This ones only barely better than Dijkstra.
+But UNOPTIMAL doesn't give shortest path.
