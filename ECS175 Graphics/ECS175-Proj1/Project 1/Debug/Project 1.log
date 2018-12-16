@@ -1,0 +1,52 @@
+﻿Build started 10/14/2015 7:56:39 PM.
+     1>Project "D:\_ECS175\ECS175-Project-1\Project 1\Project 1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(131): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(132): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(211): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(232): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(244): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(268): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(283): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(307): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(322): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(414): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(513): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(528): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(532): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(562): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(564): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(604): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(605): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(606): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(607): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(608): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(610): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(611): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(612): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(613): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(614): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(651): warning C4018: '<': signed/unsigned mismatch
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(653): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(724): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(743): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(752): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(755): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(780): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(787): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(790): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(819): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(823): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(824): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-project-1\project 1\main.cpp(828): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+       Link:
+         F:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_ECS175\ECS175-Project-1\Debug\Project 1.exe" /INCREMENTAL /NOLOGO opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\_ECS175\ECS175-Project-1\Debug\Project 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_ECS175\ECS175-Project-1\Debug\Project 1.lib" /MACHINE:X86 Debug\main.obj
+         Debug\polygon.obj
+         Project 1.vcxproj -> D:\_ECS175\ECS175-Project-1\Debug\Project 1.exe
+     1>Done Building Project "D:\_ECS175\ECS175-Project-1\Project 1\Project 1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.93

@@ -1,0 +1,27 @@
+# Tyler Welsh, 912341695, ECS 175 Project 1
+
+CFLAGS += -c -Wall -g -lglut -lGL
+LDFLAGS = -g -lglut -lGL
+
+CC = g++
+
+all: out
+
+out: main.o 3DPolygon.o
+	$(CC) main.o 3DPolygon.o $(LDFLAGS) -o out
+
+3Dpolygon.o: ../src/3DPolygon.cpp ../include/3DPolygon.h
+	$(CC) $(CFLAGS) ../src/3DPolygon.cpp -o 3DPolygon.o
+
+main.o: ../src/main.cpp ../include/3DPolygon.h
+	$(CC) $(CFLAGS) ../src/main.cpp -o main.o
+
+../include/3Dpolygon.h: ../include/3DPoint.h ../include/Edge.h
+
+../include/Edge.h: ../include/3DPoint.h
+
+../include/3DPoint.h: ../include/2DPoint.h
+
+	
+clean:
+	rm -f *.o *~ core

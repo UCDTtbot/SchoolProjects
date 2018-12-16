@@ -1,0 +1,76 @@
+﻿Build started 11/15/2015 12:42:48 PM.
+     1>Project "D:\_ECS175\ECS175-Proj3\Project3\Project3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>d:\_ecs175\ecs175-proj3\project3\include\3dpoint.h(17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(78): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(83): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(84): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(85): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(150): warning C4101: 'fileLoad': unreferenced local variable
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(368): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(372): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(384): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(389): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(407): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(428): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(440): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(464): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(479): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(503): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(518): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(540): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(541): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(542): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(622): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(623): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(630): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(631): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(648): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(655): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(665): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(672): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(682): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(689): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(701): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(792): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(794): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(796): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(800): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(802): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(804): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1318): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1319): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1320): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1462): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1504): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1546): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1556): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1557): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1563): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1563): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1567): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1567): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1579): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1579): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1584): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1584): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1598): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1599): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1612): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1619): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1626): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1689): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1718): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\src\main.cpp(1747): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+       Link:
+         F:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_ECS175\ECS175-Proj3\Project3\Debug\Project3.exe" /INCREMENTAL /NOLOGO opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\_ECS175\ECS175-Proj3\Project3\Debug\Project3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_ECS175\ECS175-Proj3\Project3\Debug\Project3.lib" /MACHINE:X86 Debug\3DPolygon.obj
+         Debug\main.obj
+         Debug\P3_Funcs.obj
+         Project3.vcxproj -> D:\_ECS175\ECS175-Proj3\Project3\Debug\Project3.exe
+     1>Done Building Project "D:\_ECS175\ECS175-Proj3\Project3\Project3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.09

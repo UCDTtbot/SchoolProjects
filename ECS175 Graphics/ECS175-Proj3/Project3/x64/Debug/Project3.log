@@ -1,0 +1,58 @@
+﻿Build started 10/29/2015 3:18:54 PM.
+     1>Project "D:\_ECS175\ECS175-Proj3\Project3\Project3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt 3DPolygon.cpp main.cpp P3_Funcs.cpp
+         P3_Funcs.cpp
+         main.cpp
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(108): warning C4101: 'fileLoad': unreferenced local variable
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(362): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(383): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(395): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(419): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(434): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(458): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(473): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(499): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(500): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(501): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(540): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(583): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(631): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(633): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(635): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(639): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(641): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(643): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(722): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(745): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(746): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\main.cpp(748): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         3DPolygon.cpp
+     1>d:\_ecs175\ecs175-proj3\project3\3dpolygon.cpp(55): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\3dpolygon.cpp(56): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\3dpolygon.cpp(57): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>d:\_ecs175\ecs175-proj3\project3\3dpolygon.cpp(62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         F:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_ECS175\ECS175-Proj3\Project3\x64\Debug\Project3.exe" /INCREMENTAL /NOLOGO opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\_ECS175\ECS175-Proj3\Project3\x64\Debug\Project3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_ECS175\ECS175-Proj3\Project3\x64\Debug\Project3.lib" /MACHINE:X64 x64\Debug\3DPolygon.obj
+         x64\Debug\main.obj
+         x64\Debug\P3_Funcs.obj
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutCreateSubWindow referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutDestroyWindow referenced in function "void __cdecl menu(int)" (?menu@@YAXH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutSetWindow referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl redisplayAllWindows(void)" (?redisplayAllWindows@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutTimerFunc referenced in function "void __cdecl animate(int)" (?animate@@YAXH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+     1>D:\_ECS175\ECS175-Proj3\Project3\\freeglut\lib\freeglut.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>D:\_ECS175\ECS175-Proj3\Project3\x64\Debug\Project3.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "D:\_ECS175\ECS175-Proj3\Project3\Project3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.27
